@@ -1,0 +1,32 @@
+name: nike_shoes_ui_challenge
+description: A nike shoe UI challenge
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0-dev.0.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  material_design_icons_flutter: any
+  outline_material_icons: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/air_jordans.png
+    - assets/high_x.png
+    - assets/nike_air.png
+
+  fonts:
+    - family: BebasNeue
+      fonts:
+        - asset: assets/BebasNeueRegular.otf
